@@ -1,13 +1,11 @@
 def aantalvakken():
     try:
         return int(input("Hoeveel vakken heb je?"))
-
     except:
         vakken()
 
 num = aantalvakken()
 
-print()
 print("Geef je vakken in")
 
 vakken = {f'Vak {i+1}': input(f'Vak {i + 1}: ') for i in range(num)}

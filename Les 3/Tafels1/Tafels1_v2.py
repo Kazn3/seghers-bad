@@ -1,0 +1,1 @@
+print("\n".join([f'{getal} * {i+1} = {(i+1)*getal}' for getal in [int(input(f'Tafels van de vermenigvuldiging\nGeef de gewenste tafel: '))] for i in range(10) ]))
